@@ -13,7 +13,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 /* intialize razorpay */
 const razorpayInstance = new Razorpay({
   key_id: process.env.RAZORPAY_KEY_ID,
-  key_secret: process.env.RAZORPAY_SECRET_KEY,
+  key_secret: process.env.RAZORPAY_KEY_SECRET,
 });
 
 /* place order for cod */
